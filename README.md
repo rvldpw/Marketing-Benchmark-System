@@ -4,7 +4,7 @@
 ![Status](https://img.shields.io/badge/Status-Completed-green)  
 
 **Capstone Project #1 – Data Science & Machine Learning Program**  
-**Institution:** Purwadhika Digital School\
+**Institution:** Purwadhika Digital School
 
 **Creator:** Rivaldi (JKTPM-36_01)
 
