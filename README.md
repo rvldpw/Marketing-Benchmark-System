@@ -10,7 +10,7 @@
 
 ## Project Overview  
 
-This project is a **Performance Marketing Benchmark Management System** built with Python to store and evaluate campaign performance data.  
+This project is a **Performance Marketing Benchmark Management System** built with Python to store and evaluate campaign performance data. 
 
 It demonstrates how teams can manage campaign knowledge internally, especially since **CRM tools can be too expensive for some companies**. The program provides a lightweight way to track benchmarks and compare campaign results with historical best performance.
 
