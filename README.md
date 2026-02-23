@@ -54,7 +54,7 @@ Marketing teams, analysts, and business owners who need a structured benchmark r
 ## How It Works  
 
 1. **Run the Script**  
-   Run the Python script (`marketing_checker v1.0.py`) in Python 3.13.9.  
+   Run the Python script (`marketing_system.py`) in Python 3.13.9.  
 
 2. **Login**  
    Enter username and password to access the dashboard.
@@ -83,8 +83,7 @@ Marketing teams, analysts, and business owners who need a structured benchmark r
     Displays data in a neat table so it’s easier to read.
 
 - ### collections
-    Part of Python’s `collections` module (a toolbox of special data structures).\
-    It automatically creates a starting value so the program can keep counting IDs without checking manually.
+    Part of Python’s `collections` module (a toolbox of special data structures). It automatically creates a starting value so the program can keep counting IDs without checking manually.
 
 ## Repository Structure  
 
@@ -115,6 +114,7 @@ To run the program locally, follow these steps:
 ## Tools and Technologies
 
 - **Programming Language:** Python  
-- **Libraries:** tabulate, collections (defaultdict)  
+- **Libraries:** tabulate, collections (defaultdict)
+- **Environment Manager:** Conda
 - **Runtime Environment:** Local machine  
 - **Editor:** Visual Studio Code  
