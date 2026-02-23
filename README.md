@@ -89,6 +89,6 @@ To run the program locally, follow these steps:
 ## Tools and Technologies
 
 - **Programming Language:** Python  
-- **Libraries:** tabulate, collections (defaultdict)
+- **Libraries:** tabulate, pandas, collections, datetime
 - **Environment:** Conda (local machine)  
 - **Editor:** Visual Studio Code  
