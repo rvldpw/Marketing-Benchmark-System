@@ -28,62 +28,37 @@ Marketing teams, analysts, and business owners who need a structured benchmark r
 ## Main Features  
 
 - **Login Authentication**  
-  Users must enter a predefined username and password before accessing the dashboard. This ensures that only authorized personnel can manage campaign data, which is structured into two distinct access levels with different permissions.
+  Secure access using predefined credentials with role-based permissions.
 
-- **Benchmark Database Management using CRUD operations**  
-  The program stores campaign benchmarks in a simple in-memory database (list of dictionaries). Users can perform the following:  
-  - **Create** → Add new benchmark data including date, category, platform, CPR, notes, and automatically generated ID. Input is validated to avoid errors.  
-  - **Read** → View all benchmarks in a clean table format using `tabulate`. Users can also filter data by date range or category or platform.  
-  - **Update** → Modify existing benchmark data by searching using the ID. Users can choose which fields to update, leaving others unchanged. Changes require confirmation before saving.  
-  - **Delete** → Remove benchmark entries from the databaseby searching using the ID. Deletion also requires confirmation to prevent accidental loss of data.
+- **Benchmark Database Management (CRUD)**  
+  Manage benchmark records stored in an in-memory database:  
+  - **Create:** Add validated benchmark data with auto-generated ID  
+  - **Read:** View and filter data in a table format  
+  - **Update:** Edit records by ID with confirmation  
+  - **Delete:** Remove records with confirmation  
 
 - **Campaign Performance Comparison**  
-  Users input the actual CPR of a campaign. The program compares it with the stored benchmark CPR and outputs:  
-  - **Higher than benchmark** → Campaign underperformed; needs evaluation.  
-  - **Equal to benchmark** → Campaign performed as expected.  
-  - **Lower than benchmark** → Campaign overperformed; better than expected.
+  Compare actual CPR against benchmarks to identify whether a campaign is underperforming, on target, or exceeding expectations.
 
-- **Automatic Primary Key (ID) Generator**  
-  Each benchmark is assigned a unique ID automatically using the formula:  
-  `PlatformCode + YYMMDD + sequence number`  
-  Example:  
-  - `FB2405050001` → Facebook campaign on 5 May 2024, first entry  
-  - `TT2202140001` → TikTok campaign on 14 Feb 2022, first entry  
-  This ensures every record is uniquely identifiable without manual input.
+- **Automatic ID Generator**  
+  Unique ID format: `PlatformCode + YYMMDD + sequence number`  
+  Ensures consistent and traceable records.
 
 ## How It Works  
 
-1. **Run the Script**  
-   Run the Python script (`marketing_system.py`) in Python 3.13.9.  
-
-2. **Login**  
-   Enter username and password to access the dashboard.
-
-3. **Menu Dashboard**  
-   A numbered menu appears in the terminal showing available actions:  
-   - View all benchmarks  
-   - Add a new benchmark  
-   - Update existing benchmark  
-   - Delete benchmark  
-   - Check campaign performance  
-   - Exit the program  
-
-4. **Data Management**  
-   Selecting an action guides the user step-by-step to perform CRUD operations. Input validation ensures correct data types, allowed platforms, and proper dates.  
-
-5. **Performance Check**  
-   Users input actual campaign CPR. The system automatically compares it with the stored benchmark and displays whether the campaign is **underperforming, on target, or exceeding expectations**.  
-
-6. **Confirmation Prompts**  
-   Before saving, updating, or deleting any data, the program asks for user confirmation to prevent mistakes.
+1. Run the script in Python 3.13.9  
+2. Log in with your credentials  
+3. Use the terminal menu to manage benchmarks or check performance  
+4. Follow step-by-step prompts with built-in validation and confirmations  
 
 ## Libraries  
 
-- ### tabulate  
-    Displays data in a neat table so it’s easier to read.
+This program uses the following libraries:
 
-- ### collections
-    Part of Python’s `collections` module (a toolbox of special data structures). It automatically creates a starting value so the program can keep counting IDs without checking manually.
+- **Collections (defaultdict)** — helps create dictionaries with automatic default values, useful for counting and grouping data.
+- **Tabulate** — displays data in a clean and readable table format in the terminal.
+- **Datetime** — handles date and time operations (e.g., timestamps).
+- **Pandas** — processes and analyzes tabular data using DataFrames.
 
 ## Repository Structure  
 
@@ -115,6 +90,5 @@ To run the program locally, follow these steps:
 
 - **Programming Language:** Python  
 - **Libraries:** tabulate, collections (defaultdict)
-- **Environment Manager:** Conda
-- **Runtime Environment:** Local machine  
+- **Environment:** Conda (local machine)  
 - **Editor:** Visual Studio Code  
