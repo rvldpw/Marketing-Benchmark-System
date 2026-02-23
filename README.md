@@ -67,25 +67,6 @@ This program uses the following libraries:
 └── README.md                   # Project documentation
 ```
 
-## Installation and Usage  
-
-To run the program locally, follow these steps:
-
-1. **Download or Clone the Repository**  
-   Download the project files or clone the repository to your computer.
-
-2. **Install Required Library**  
-   Make sure Python is installed, then install the required library:
-
-   ```bash
-   pip install tabulate
-   ```
-3. **Open the Project**\
-   Open the folder in Visual Studio Code.
-
-4. **Run the Program**\
-    Run the Python script using `3.13.9` and follow the on-screen menu instructions in the terminal.
-
 ## Tools and Technologies
 
 - **Programming Language:** Python  
