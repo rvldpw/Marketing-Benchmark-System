@@ -3,16 +3,18 @@
 ![Python](https://img.shields.io/badge/Python-3.13-blue)  
 ![Status](https://img.shields.io/badge/Status-Completed-green)  
 
-**Capstone Project #1 – Data Science & Machine Learning Program**  
-**Institution:** Purwadhika Digital School
-
-**Creator:** Rivaldi (JKTPM-36_01)
+**Project Type:** Data Analytics / Marketing Performance System  
+**Creator:** Rivaldi
 
 ## Project Overview  
 
-This project is a **Performance Marketing Benchmark Management System** built with Python to store and evaluate campaign performance data. 
+This project is a **Performance Marketing Benchmark Management System** built with Python to store and evaluate campaign performance data.  
 
-It demonstrates how teams can manage campaign knowledge internally, especially since **CRM tools can be too expensive for some companies**. The program provides a lightweight way to track benchmarks and compare campaign results with historical best performance.
+Developed as part of a **Data Science & Machine Learning program at :contentReference[oaicite:0]{index=0}**, this project reflects real-world marketing analytics use cases and practical system design.  
+
+It demonstrates how teams can manage campaign knowledge internally, especially since **CRM tools can be too expensive for some companies**. The program provides a lightweight way to track benchmarks and compare campaign results with historical best performance.  
+
+Additionally, the system is designed to scale beyond a standalone tool by integrating with internal databases or data warehouses, enabling automated data pipelines and more advanced analytics workflows.
 
 ## Context, Problem, and Users  
 
