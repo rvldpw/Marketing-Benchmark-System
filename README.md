@@ -10,7 +10,7 @@
 
 This project is a **Performance Marketing Benchmark Management System** built with Python to store and evaluate campaign performance data.  
 
-Developed as part of a **Data Science & Machine Learning program at :contentReference[oaicite:0]{index=0}**, this project reflects real-world marketing analytics use cases and practical system design.  
+Developed as part of a **Data Science & Machine Learning program at: Purwadhika Digital School**, this project reflects real-world marketing analytics use cases and practical system design.  
 
 It demonstrates how teams can manage campaign knowledge internally, especially since **CRM tools can be too expensive for some companies**. The program provides a lightweight way to track benchmarks and compare campaign results with historical best performance.  
 
