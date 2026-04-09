@@ -65,8 +65,8 @@ This program uses the following libraries:
 ## Repository Structure  
 
 ```text
-├── marketing_checker v1.0.py   # Main program
-└── README.md                   # Project documentation
+├── README.md  # Project documentation
+└── marketing_system_app.py  # Main program                 
 ```
 
 ## Tools and Technologies
