@@ -57,10 +57,10 @@ Marketing teams, analysts, and business owners who need a structured benchmark r
 
 This program uses the following libraries:
 
-- **Collections (defaultdict)** — helps create dictionaries with automatic default values, useful for counting and grouping data.
-- **Tabulate** — displays data in a clean and readable table format in the terminal.
-- **Datetime** — handles date and time operations (e.g., timestamps).
-- **Pandas** — processes and analyzes tabular data using DataFrames.
+- **Collections (defaultdict)**: Helps create dictionaries with automatic default values, Useful for counting and grouping data.
+- **Tabulate**: Displays data in a clean and readable table format in the terminal.
+- **Datetime**: Handles date and time operations (e.g., timestamps).
+- **Pandas**: Processes and analyzes tabular data using DataFrames.
 
 ## Repository Structure  
 
